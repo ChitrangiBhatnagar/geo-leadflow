@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-secondary text-secondary-foreground">
+    <footer id="footer" className="bg-secondary text-secondary-foreground">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Company Info */}
@@ -40,10 +40,10 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-secondary-foreground mb-4">Products</h3>
             <ul className="space-y-2">
-              <li><Link to="/features" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Lead Generation</Link></li>
-              <li><Link to="/features" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">AI Scoring</Link></li>
-              <li><Link to="/features" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">CRM Integration</Link></li>
-              <li><Link to="/features" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Analytics</Link></li>
+              <li><a href="https://salescentri.com/platforms/lead-management/lead-generation" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Lead Generation</a></li>
+              <li><a href="https://salescentri.com/platforms/contact-intelligence/ai-aggregator" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">AI Scoring</a></li>
+              <li><a href="https://salescentri.com/solutions/psa-suite/integrations" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">CRM Integration</a></li>
+              <li><a href="https://salescentri.com/solutions/psa-suite/features" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Analytics</a></li>
             </ul>
           </div>
 
@@ -51,10 +51,9 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-secondary-foreground mb-4">Company</h3>
             <ul className="space-y-2">
-              <li><Link to="/about" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">About Us</Link></li>
-              <li><Link to="/blog" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Blog</Link></li>
-              <li><Link to="/contact" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Careers</Link></li>
-              <li><Link to="/contact" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Press</Link></li>
+              <li><a href="https://salescentri.com/company/about-us" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">About Us</a></li>
+              <li><a href="https://salescentri.com/company/careers" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Careers</a></li>
+              <li><a href="https://salescentri.com/company/partners-affiliates" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Partners</a></li>
             </ul>
           </div>
 
@@ -62,10 +61,10 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-secondary-foreground mb-4">Support</h3>
             <ul className="space-y-2">
-              <li><Link to="/faq" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">FAQ</Link></li>
-              <li><Link to="/contact" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Contact</Link></li>
-              <li><Link to="/contact" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Help Center</Link></li>
-              <li><Link to="/contact" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Documentation</Link></li>
+              <li><a href="https://salescentri.com/contact" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Contact</a></li>
+              <li><a href="https://salescentri.com/contact/support-request" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Support</a></li>
+              <li><a href="https://salescentri.com/contact/support-request/live-chat" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Live Chat</a></li>
+              <li><a href="https://salescentri.com/docs/user-guide" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Documentation</a></li>
             </ul>
           </div>
         </div>
@@ -96,7 +95,7 @@ const Footer = () => {
               <div className="text-sm text-secondary-foreground/60">
                 Powered by{" "}
                 <a 
-                  href="https://www.salescentri.com/?utm_source=georgettestudios.com&utm_medium=footer&utm_campaign=partner_network"
+                  href="https://salescentri.com/?utm_source=georgettestudios.com&utm_medium=footer&utm_campaign=partner_network"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:text-primary-light transition-colors"

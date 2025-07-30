@@ -86,16 +86,21 @@ const Testimonials = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="https://www.salescentri.com/?utm_source=georgettestudios.com&utm_medium=testimonials&utm_campaign=social_proof"
+                href="https://salescentri.com/get-started/free-trial"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-gradient-primary text-primary-foreground hover:shadow-primary hover:scale-105 font-semibold px-8 py-3 rounded-md transition-all duration-200"
               >
                 Start Free Trial
               </a>
-              <button className="border-2 border-primary text-primary bg-transparent hover:bg-primary hover:text-primary-foreground px-8 py-3 rounded-md transition-all duration-200">
+              <a 
+                href="https://salescentri.com/get-started/book-demo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-2 border-primary text-primary bg-transparent hover:bg-primary hover:text-primary-foreground px-8 py-3 rounded-md transition-all duration-200"
+              >
                 Schedule Demo
-              </button>
+              </a>
             </div>
           </div>
         </div>

@@ -148,7 +148,7 @@ const Pricing = () => {
                   asChild
                 >
                   <a 
-                    href="https://www.salescentri.com/pricing/?utm_source=georgettestudios.com&utm_medium=pricing&utm_campaign=partner_alignment"
+                    href="https://salescentri.com/get-started/free-trial"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

@@ -103,7 +103,7 @@ const Features = () => {
           </p>
           <div className="text-center">
             <a 
-              href="https://www.salescentri.com/features/?utm_source=georgettestudios.com&utm_medium=features&utm_campaign=lead_infrastructure"
+              href="https://salescentri.com/solutions/use-case-navigator/demo"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-gradient-primary text-primary-foreground hover:shadow-primary hover:scale-105 font-semibold px-8 py-3 rounded-md transition-all duration-200"

@@ -35,13 +35,17 @@ const Hero = () => {
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" variant="cta" className="group">
-                Start Free Trial
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <Button size="lg" variant="cta" className="group" asChild>
+                <a href="https://salescentri.com/get-started/free-trial" target="_blank" rel="noopener noreferrer">
+                  Start Free Trial
+                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </a>
               </Button>
-              <Button size="lg" variant="outline-primary" className="group">
-                <Play className="w-5 h-5" />
-                Watch Demo
+              <Button size="lg" variant="outline-primary" className="group" asChild>
+                <a href="https://salescentri.com/get-started/book-demo" target="_blank" rel="noopener noreferrer">
+                  <Play className="w-5 h-5" />
+                  Watch Demo
+                </a>
               </Button>
             </div>
 

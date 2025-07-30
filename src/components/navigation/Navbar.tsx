@@ -7,11 +7,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { name: "Features", href: "/features" },
-    { name: "Pricing", href: "/pricing" },
-    { name: "About", href: "/about" },
-    { name: "Blog", href: "/blog" },
-    { name: "Contact", href: "/contact" },
+    { name: "Features", href: "https://salescentri.com/solutions/psa-suite/features" },
+    { name: "Pricing", href: "https://salescentri.com/pricing" },
+    { name: "About", href: "https://salescentri.com/company/about-us" },
+    { name: "Contact", href: "#footer", isScroll: true },
   ];
 
   return (
@@ -29,23 +28,39 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
-              <Link
-                key={item.name}
-                to={item.href}
-                className="text-muted-foreground hover:text-foreground transition-colors duration-200"
-              >
-                {item.name}
-              </Link>
+              item.isScroll ? (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="text-muted-foreground hover:text-foreground transition-colors duration-200"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById('footer')?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                >
+                  {item.name}
+                </a>
+              ) : (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-foreground transition-colors duration-200"
+                >
+                  {item.name}
+                </a>
+              )
             ))}
           </div>
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
             <Button variant="ghost" asChild>
-              <Link to="/contact">Sign In</Link>
+              <a href="https://salescentri.com/login/customer-portal" target="_blank" rel="noopener noreferrer">Sign In</a>
             </Button>
             <Button variant="cta" asChild>
-              <Link to="/contact">Start Free Trial</Link>
+              <a href="https://salescentri.com/get-started/free-trial" target="_blank" rel="noopener noreferrer">Start Free Trial</a>
             </Button>
           </div>
 
@@ -65,21 +80,38 @@ const Navbar = () => {
         {isOpen && (
           <div className="md:hidden py-4 space-y-4 animate-fade-in">
             {navItems.map((item) => (
-              <Link
-                key={item.name}
-                to={item.href}
-                className="block text-muted-foreground hover:text-foreground transition-colors duration-200"
-                onClick={() => setIsOpen(false)}
-              >
-                {item.name}
-              </Link>
+              item.isScroll ? (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="block text-muted-foreground hover:text-foreground transition-colors duration-200"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setIsOpen(false);
+                    document.getElementById('footer')?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                >
+                  {item.name}
+                </a>
+              ) : (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block text-muted-foreground hover:text-foreground transition-colors duration-200"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.name}
+                </a>
+              )
             ))}
             <div className="pt-4 space-y-2">
               <Button variant="ghost" className="w-full" asChild>
-                <Link to="/contact">Sign In</Link>
+                <a href="https://salescentri.com/login/customer-portal" target="_blank" rel="noopener noreferrer">Sign In</a>
               </Button>
               <Button variant="cta" className="w-full" asChild>
-                <Link to="/contact">Start Free Trial</Link>
+                <a href="https://salescentri.com/get-started/free-trial" target="_blank" rel="noopener noreferrer">Start Free Trial</a>
               </Button>
             </div>
           </div>
