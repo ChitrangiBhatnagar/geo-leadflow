@@ -40,10 +40,10 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-secondary-foreground mb-4">Products</h3>
             <ul className="space-y-2">
-              <li><a href="https://salescentri.com/platforms/lead-management/lead-generation" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Lead Generation</a></li>
-              <li><a href="https://salescentri.com/platforms/contact-intelligence/ai-aggregator" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">AI Scoring</a></li>
-              <li><a href="https://salescentri.com/solutions/psa-suite/integrations" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">CRM Integration</a></li>
-              <li><a href="https://salescentri.com/solutions/psa-suite/features" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Analytics</a></li>
+              <li><a href="https://salescentri.com/platforms/lead-management/lead-generation" target="_self" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Lead Generation</a></li>
+              <li><a href="https://salescentri.com/platforms/contact-intelligence/ai-aggregator" target="_self" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">AI Scoring</a></li>
+              <li><a href="https://salescentri.com/solutions/psa-suite/integrations" target="_self" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">CRM Integration</a></li>
+              <li><a href="https://salescentri.com/solutions/psa-suite/features" target="_self" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Analytics</a></li>
             </ul>
           </div>
 
@@ -51,9 +51,9 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-secondary-foreground mb-4">Company</h3>
             <ul className="space-y-2">
-              <li><a href="https://salescentri.com/company/about-us" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">About Us</a></li>
-              <li><a href="https://salescentri.com/company/careers" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Careers</a></li>
-              <li><a href="https://salescentri.com/company/partners-affiliates" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Partners</a></li>
+              <li><a href="https://salescentri.com/company/about-us" target="_self" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">About Us</a></li>
+              <li><a href="https://salescentri.com/company/careers" target="_self" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Careers</a></li>
+              <li><a href="https://salescentri.com/company/partners-affiliates" target="_self" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Partners</a></li>
             </ul>
           </div>
 
@@ -61,10 +61,10 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-secondary-foreground mb-4">Support</h3>
             <ul className="space-y-2">
-              <li><a href="https://salescentri.com/contact" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Contact</a></li>
-              <li><a href="https://salescentri.com/contact/support-request" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Support</a></li>
-              <li><a href="https://salescentri.com/contact/support-request/live-chat" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Live Chat</a></li>
-              <li><a href="https://salescentri.com/docs/user-guide" target="_blank" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Documentation</a></li>
+              <li><a href="https://salescentri.com/contact" target="_self" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Contact</a></li>
+              <li><a href="https://salescentri.com/contact/support-request" target="_self" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Support</a></li>
+              <li><a href="https://salescentri.com/contact/support-request/live-chat" target="_self" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Live Chat</a></li>
+              <li><a href="https://salescentri.com/docs/user-guide" target="_self" rel="noopener noreferrer" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">Documentation</a></li>
             </ul>
           </div>
         </div>
@@ -96,7 +96,7 @@ const Footer = () => {
                 Powered by{" "}
                 <a 
                   href="https://salescentri.com/?utm_source=georgettestudios.com&utm_medium=footer&utm_campaign=partner_network"
-                  target="_blank"
+                  target="_self"
                   rel="noopener noreferrer"
                   className="text-primary hover:text-primary-light transition-colors"
                 >
