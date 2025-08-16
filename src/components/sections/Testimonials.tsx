@@ -87,7 +87,7 @@ const Testimonials = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
                 href="https://salescentri.com/get-started/free-trial"
-                target="_blank"
+                target="_self"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-gradient-primary text-primary-foreground hover:shadow-primary hover:scale-105 font-semibold px-8 py-3 rounded-md transition-all duration-200"
               >
@@ -95,7 +95,7 @@ const Testimonials = () => {
               </a>
               <a 
                 href="https://salescentri.com/get-started/book-demo"
-                target="_blank"
+                target="_self"
                 rel="noopener noreferrer"
                 className="border-2 border-primary text-primary bg-transparent hover:bg-primary hover:text-primary-foreground px-8 py-3 rounded-md transition-all duration-200"
               >
