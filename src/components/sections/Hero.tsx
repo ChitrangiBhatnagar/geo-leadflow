@@ -53,7 +53,7 @@ const Hero = () => {
             <div className="pt-8">
               <p className="text-sm text-muted-foreground mb-4">Trusted by 500+ B2B companies</p>
               <div className="flex items-center space-x-6 opacity-60">
-                <div className="text-xs font-semibold text-muted-foreground">SALESCENTRI</div>
+                
                 <div className="text-xs font-semibold text-muted-foreground">HUBSPOT</div>
                 <div className="text-xs font-semibold text-muted-foreground">PIPEDRIVE</div>
                 <div className="text-xs font-semibold text-muted-foreground">SALESFORCE</div>
